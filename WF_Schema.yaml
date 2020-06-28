@@ -1,0 +1,24 @@
+schema;task:
+  map:
+    TaskName:
+      type: str
+      required: True
+      pattern: "^[A-Za-z][A-Za-z0-9_]*$"
+    Description:
+      type: str
+      required: False
+    RunCommand:
+      type: text
+      required: True
+
+map:
+  WorkflowName:
+    type: str
+    required: True
+    pattern: "^[A-Za-z][A-Za-z0-9_]*$"
+  Description:
+    type: str
+    required: False
+  Tasks:
+    sequence:
+      - include: task

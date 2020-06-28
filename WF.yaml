@@ -1,0 +1,15 @@
+WorkflowName : MyAwesomeWorkflow
+Description : |
+  Detail Discriptuion about the Workflow
+Tasks :
+  - TaskName : Task1
+    Description : "Optional"
+    RunCommand : echo "Hello World"
+
+  - TaskName : Task_2
+    Description : "Optional"
+    RunCommand : echo "What is this!"
+
+  - TaskName : Task3
+    Description : "Optional"
+    RunCommand : echo "Wat am I doing?"
