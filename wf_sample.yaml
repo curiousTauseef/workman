@@ -8,8 +8,8 @@ Tasks :
 
   - TaskName : Task_2
     Description : "Optional"
-    RunCommand : echo "What is this!"
+    RunCommand : echo "Command 1"
 
   - TaskName : Task3
     Description : "Optional"
-    RunCommand : echo "Wat am I doing?"
+    RunCommand : echo "Command 2"
