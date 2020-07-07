@@ -10,7 +10,7 @@ Refer to the sample Workflow YAML file below.
 - Install the requirements before running the script to avoid errors.
 
 #### Sample Workflow File:
-@[:code_block](./wf_schema.yaml)
+@[:code_block](./wf_sample.yaml)
 
 #### Run Command:
     usage: runner.py [-h] [-l LOGDIR] [-s STEPS] [-v] wfFile
