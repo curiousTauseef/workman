@@ -1,5 +1,5 @@
 # workman - Workflow Manager
-A minimalist, lightweight workflow manager.
+### A minimalist, lightweight workflow manager.
 Create a Workflow as a YAML file and pass the path as the first positional argument.
 Refer to the sample Workflow YAML file below.
 
@@ -10,7 +10,7 @@ Refer to the sample Workflow YAML file below.
 - Install the requirements before running the script to avoid errors.
 
 #### Sample Workflow File:
-@[:code_block](./wf_sample.yaml)
+@[:wf_sample](./wf_sample.yaml)
 
 #### Run Command:
     usage: runner.py [-h] [-l LOGDIR] [-s STEPS] [-v] wfFile
@@ -32,12 +32,12 @@ Refer to the sample Workflow YAML file below.
       2 Formats supported:
         --> 'ST-EN'. Example: 1-3, 2-5. Both the values need to be a positive   integer number.
         --> 'STEPNO, {STEPNO,}'. Example: 1,3,5. All the step numbers needs to be   positive integer numbers.
-      Steps will *always* be executed sequentially in ascending order.
+      Steps will always be executed sequentially in ascending order.
     -v, --verbose
       Increase log verbosity.
 
 #### Requirements:
-@[:code_block](./requirements.txt)
+@[:requirements.txt](./requirements.txt)
 
 ##### To install the requirements:
     pip install -r requirements.txt
